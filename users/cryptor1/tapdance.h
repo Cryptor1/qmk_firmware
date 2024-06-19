@@ -11,5 +11,5 @@ enum {
 tap_dance_action_t tap_dance_actions[] = 
 {
   [CAPS]=ACTION_TAP_DANCE_DOUBLE(KC_TAB,KC_CAPS),
-  [EXIT]= ACTION_TAP_DANCE_DOUBLE(KC_ESC,CLOSE)
+  [EXIT]= ACTION_TAP_DANCE_DOUBLE(KC_ESC,CLOSE),
 };
