@@ -8,8 +8,8 @@
 #define QWERTY_R_R3 KC_H,     HOME_J,  HOME_K,  HOME_L,  KC_SCLN, KC_QUOT
 #define QWERTY_L_R2 SHFT,     KC_Z,    KC_X,    KC_C,    KC_V,    KC_B  
 #define QWERTY_R_R2 KC_N,     KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT
-#define QWERTY_L_R1 _______,  KC_MPLY, KC_MNXT, MOUSE,   LOWER,   KC_SPC
-#define QWERTY_R_R1 MOUSE,    RAISE,   _______, _______, _______, _______
+#define QWERTY_L_R1 _______,  KC_MPLY, KC_MNXT, _______, LOWER,   KC_SPC
+#define QWERTY_R_R1 KC_BSPC,  RAISE,   KC_PSCR, _______, _______, _______
 //Lower Layer
 #define LOWER_L_R5 _______, _______, KC_MPRV, KC_MNXT, KC_MPLY, _______
 #define LOWER_R_R5 _______, KC_NUM,  KC_PSLS, KC_PAST, KC_PMNS, _______
@@ -32,14 +32,3 @@
 #define RAISE_R_R2 KC_F12,  KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, _______
 #define RAISE_L_R1 _______, _______, _______, _______, _______, _______
 #define RAISE_R_R1 _______, KC_TRNS, _______, _______, _______, QK_BOOT
-// Mouse Layers
-#define MOUSE_L_R5 _______, _______, _______, _______, _______, _______
-#define MOUSE_R_R5 _______, _______, _______, _______, _______, _______
-#define MOUSE_L_R4 _______, _______, _______, _______, _______, _______
-#define MOUSE_R_R4 _______, _______, _______, _______, _______, _______
-#define MOUSE_L_R3 _______, KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, _______
-#define MOUSE_R_R3 KC_BTN1, KC_BTN2, _______, _______, _______, _______
-#define MOUSE_L_R2 _______, _______, _______, _______, _______, _______
-#define MOUSE_R_R2 _______, _______, _______, _______, _______, _______
-#define MOUSE_L_R1 _______, _______, _______, KC_TRNS, _______, _______
-#define MOUSE_R_R1 KC_TRNS, _______, _______, _______, _______, _______
