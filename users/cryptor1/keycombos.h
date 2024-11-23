@@ -69,6 +69,5 @@ enum custom_keycodes {
 // Layer Combinations
 #define RAISE MO(_RAISE) // Raise Layer
 #define LOWER MO(_LOWER) // Lower Layer
-#define MOUSE MO(_MOUSE) // Mouse Layer
 #define DRAW MO(_DRAW) // Draw Layer
 #define SHFT OSM(MOD_LSFT) //OSM Left Shift
