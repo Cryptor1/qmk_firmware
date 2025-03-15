@@ -13,7 +13,7 @@
 
 ### Files
 
-The goal was to build a common userspace that can house keymap 'chunks' that can be maintained flashed to various my keyboards (above). This userspace contains separate files for:
+The goal was to build a common userspace that can house keymap 'chunks' that can be maintained and flashed to various my keyboards (above). This userspace contains separate files for:
 - Shared keymap 'chunks' that can be maintained in this userspace and flashed to multiple keyboards
     - Goal is to have the same keymap across 3 different, ortholinear keyboards
 - Various macros
