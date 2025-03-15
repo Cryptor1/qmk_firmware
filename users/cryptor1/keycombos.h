@@ -65,6 +65,7 @@ enum custom_keycodes {
 #define BFORWARD LALT(KC_RIGHT) // Forward in Browser
 #define ZOOMIN LCTL(KC_MS_WH_UP) 
 #define ZOOMOUT LCTL(KC_MS_WH_DOWN)
+#define WORDBSPC LCTL(KC_BSPC) //Delete entire last word
 
 // Layer Combinations
 #define RAISE MO(_RAISE) // Raise Layer

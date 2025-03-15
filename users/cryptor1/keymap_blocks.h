@@ -9,7 +9,7 @@
 #define QWERTY_L_R2 SHFT,     KC_Z,    KC_X,    KC_C,    KC_V,    KC_B  
 #define QWERTY_R_R2 KC_N,     KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT
 #define QWERTY_L_R1 _______,  KC_MPLY, KC_MNXT, _______, LOWER,   KC_SPC
-#define QWERTY_R_R1 KC_BSPC,  RAISE,   KC_PSCR, _______, _______, _______
+#define QWERTY_R_R1 WORDBSPC, RAISE,   KC_PSCR, _______, BBACK,   BFORWARD
 //Lower Layer
 #define LOWER_L_R5 _______, _______, KC_MPRV, KC_MNXT, KC_MPLY, _______
 #define LOWER_R_R5 _______, KC_NUM,  KC_PSLS, KC_PAST, KC_PMNS, _______
