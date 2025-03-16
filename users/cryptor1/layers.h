@@ -3,5 +3,6 @@ enum userspace_layers {
     _QWERTY,
     _LOWER,
     _RAISE,
-    _DRAW
+    _DRAW,
+    _NAV
 };
