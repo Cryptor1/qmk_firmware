@@ -25,4 +25,11 @@ RAISE_L_R3, RAISE_R_R3,
 RAISE_L_R2, RAISE_R_R2,
 RAISE_L_R1, RAISE_R_R1),
 
+[_NAV] = LAYOUT_wrapper(
+NAV_L_R4, NAV_R_R4,
+NAV_L_R3, NAV_R_R3,
+NAV_L_R2, NAV_R_R2,
+NAV_L_R1, NAV_R_R1),
+    
+
 };              

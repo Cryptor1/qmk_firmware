@@ -16,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    QWERTY_L_R4,                        QWERTY_R_R4,
    QWERTY_L_R3,                        QWERTY_R_R3,
    QWERTY_L_R2,  QK_BOOT,    QK_BOOT,  QWERTY_R_R2,
-   TG(_DRAW), LOWER, KC_SPC,   KC_BSPC, RAISE, _______),
+   TG(_DRAW), LOWER, SPCNAV,   KC_BSPC, RAISE, _______),
 
 [_RAISE] = LAYOUT_wrapper(
    RAISE_L_R5,                           RAISE_R_R5,
@@ -37,9 +37,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      _______,   _______,  KC_7,    KC_8,    KC_9,    KC_BSPC,                           _______,  _______, _______, _______, _______, _______,
      KC_LALT,   SAVE,     KC_4,    KC_5,    KC_6,    KC_ENT,                            _______,  _______, _______, _______, _______, _______,
      KC_LSFT,   REGEN,    KC_1,    KC_2,    KC_3,    _______, _______,         _______, _______, _______, _______, _______, _______, _______,
-                                          KC_0,      KC_PDOT, KC_LCTL,                      _______, _______, _______
+                                          KC_0,      KC_PDOT, KC_LCTL,                      _______, _______, _______),
 
-  )
+  [_NAV] = LAYOUT_wrapper(
+   NAV_L_R5,                         NAV_R_R5,
+   NAV_L_R4,                         NAV_R_R4,
+   NAV_L_R3,                         NAV_R_R3,
+   NAV_L_R2,       _______, _______, NAV_R_R2,
+   _______, _______, KC_TRNS, _______, _______, _______)
 
 };
 
