@@ -9,7 +9,7 @@
 #define QWERTY_L_R2 SHFT,     KC_Z,    KC_X,    KC_C,    KC_V,    KC_B  
 #define QWERTY_R_R2 KC_N,     KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT
 #define QWERTY_L_R1 _______,  KC_MPLY, KC_MNXT, _______, LOWER,   SPCNAV
-#define QWERTY_R_R1 WORDBSPC, RAISE,   KC_PSCR, _______, BBACK,   BFORWARD
+#define QWERTY_R_R1 WORDBSPC, RAISE,   KC_PSCR, GMG,     BBACK,   BFORWARD
 //Lower Layer
 #define LOWER_L_R5 _______, _______, KC_MPRV, KC_MNXT, KC_MPLY, _______
 #define LOWER_R_R5 _______, KC_NUM,  KC_PSLS, KC_PAST, KC_PMNS, _______
@@ -43,15 +43,14 @@
 #define NAV_R_R2 _______, _______,    _______,     _______,    _______,     _______
 #define NAV_L_R1 _______, _______,    _______,     _______,    _______,     KC_TRNS
 #define NAV_R_R1 _______, _______,    _______,     _______,    _______,     _______
-/*Template Layer for Future Use
-#define EX_L_R5 _______, _______, _______, _______, _______, _______
-#define EX_R_R5 _______, _______, _______, _______, _______, _______
-#define EX_L_R4 _______, _______, _______, _______, _______, _______
-#define EX_R_R4 _______, _______, _______, _______, _______, _______
-#define EX_L_R3 _______, _______, _______, _______, _______, _______
-#define EX_R_R3 _______, _______, _______, _______, _______, _______
-#define EX_L_R2 _______, _______, _______, _______, _______, _______
-#define EX_R_R2 _______, _______, _______, _______, _______, _______
-#define EX_L_R1 _______, _______, _______, _______, _______, _______
-#define EX_R_R1 _______, _______, _______, _______, _______, _______
-*/
+// Template Layer for Future Use
+#define GMG_L_R5 _______, _______, _______, _______, _______, _______
+#define GMG_R_R5 _______, _______, _______, _______, _______, _______
+#define GMG_L_R4 _______, _______, _______, _______, _______, _______
+#define GMG_R_R4 _______, _______, _______, _______, _______, _______
+#define GMG_L_R3 KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    _______
+#define GMG_R_R3 _______, _______, _______, _______, _______, _______
+#define GMG_L_R2 KC_LSFT, _______, _______, _______, _______, _______
+#define GMG_R_R2 _______, _______, _______, _______, _______, _______
+#define GMG_L_R1 _______, _______, _______, _______, _______, _______
+#define GMG_R_R1 _______, _______, _______, _______, _______, _______

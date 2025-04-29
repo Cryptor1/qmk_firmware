@@ -4,5 +4,6 @@ enum userspace_layers {
     _LOWER,
     _RAISE,
     _DRAW,
-    _NAV
+    _NAV,
+    _GMG,
 };

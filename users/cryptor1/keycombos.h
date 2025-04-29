@@ -66,7 +66,8 @@ enum custom_keycodes {
 // Layer Combinations
 #define RAISE MO(_RAISE) // Raise Layer
 #define LOWER MO(_LOWER) // Lower Layer
-#define DRAW MO(_DRAW) // Draw Layer
+#define DRAW TO(_DRAW) // Draw Layer
+#define GMG TO(_GMG) // Gaming Layer
 #define SHFT OSM(MOD_LSFT) //OSM Left Shift
 #define BKRAISE LT(_RAISE,KC_BSPC) // Backspace on tap & Raise layer on hold
 #define SPCNAV LT(_NAV,KC_SPC) //Space on tap & Nav layer on hold

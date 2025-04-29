@@ -36,5 +36,12 @@ NAV_L_R3, NAV_R_R3,
 NAV_L_R2, NAV_R_R2,
 NAV_L_R1, NAV_R_R1),
 
+[_GMG] = LAYOUT_wrapper(
+GMG_L_R5, GMG_R_R5,
+GMG_L_R4, GMG_R_R4,
+GMG_L_R3, GMG_R_R3,
+GMG_L_R2, GMG_R_R2,
+GMG_L_R1, GMG_R_R1),
+
 };
 
