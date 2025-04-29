@@ -44,13 +44,13 @@
 #define NAV_L_R1 _______, _______,    _______,     _______,    _______,     KC_TRNS
 #define NAV_R_R1 _______, _______,    _______,     _______,    _______,     _______
 // Template Layer for Future Use
-#define GMG_L_R5 _______, _______, _______, _______, _______, _______
-#define GMG_R_R5 _______, _______, _______, _______, _______, _______
-#define GMG_L_R4 _______, _______, _______, _______, _______, _______
-#define GMG_R_R4 _______, _______, _______, _______, _______, _______
-#define GMG_L_R3 KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    _______
-#define GMG_R_R3 _______, _______, _______, _______, _______, _______
-#define GMG_L_R2 KC_LSFT, _______, _______, _______, _______, _______
-#define GMG_R_R2 _______, _______, _______, _______, _______, _______
-#define GMG_L_R1 _______, _______, _______, _______, _______, _______
-#define GMG_R_R1 _______, _______, _______, _______, _______, _______
+#define GMG_L_R5 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_R_R5 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_L_R4 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_R_R4 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_L_R3 KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    KC_TRNS
+#define GMG_R_R3 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_L_R2 KC_LSFT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_R_R2 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_L_R1 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+#define GMG_R_R1 KC_TRNS, KC_TRNS, KC_TRNS, GMG,     KC_TRNS, KC_TRNS
