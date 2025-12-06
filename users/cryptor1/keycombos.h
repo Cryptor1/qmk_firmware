@@ -19,10 +19,8 @@ enum custom_keycodes {
   NEW,
   UNDO,
   DRAW,
-  SPCNAV,
-  NEWTAB,
-  WORDRIGHT,
-  WORDLEFT
+  DTOP_L,
+  DTOP_R
 };
 
 // Windows Nagivaton Mapkeys
@@ -35,6 +33,8 @@ enum custom_keycodes {
 #define SWAP_L SGUI(KC_LEFT) // Swap application to left display
 #define SWAP_R SGUI(KC_RGHT) // Swap application to right display
 #define MINALL LGUI(KC_M) // Minimize all open applications
+#define DTOP_L LCTL(LGUI(KC_LEFT)) //Switch virtual desktops to left
+#define DTOP_R LCTL(LGUI(KC_RGHT)) //Switch virtual desktops to left
 
 // Internet Browser Nagivation
 #define BBACK LALT(KC_LEFT) // Back in Browser
@@ -45,8 +45,6 @@ enum custom_keycodes {
 #define WORDLEFT LCTL(KC_LEFT) //Move to previous word in text
 #define WORDRIGHT LCTL(KC_RIGHT) //Move to next word in text
 
-// Misc
-#define WORDBSPC LCTL(KC_BSPC) //Delete entire last word
 
 // PTC Creo
 #define OPEN LCTL(KC_O) // Creo 'open file'
@@ -69,5 +67,3 @@ enum custom_keycodes {
 #define DRAW TG(_DRAW) // Draw Layer
 #define GMG TG(_GMG) // Gaming Layer
 #define SHFT OSM(MOD_LSFT) //OSM Left Shift
-#define BKRAISE LT(_RAISE,KC_BSPC) // Backspace on tap & Raise layer on hold
-#define SPCNAV LT(_NAV,KC_SPC) //Space on tap & Nav layer on hold
