@@ -19,8 +19,7 @@ enum custom_keycodes {
   NEW,
   UNDO,
   DRAW,
-  DTOP_L,
-  DTOP_R
+  ALT_TAB
 };
 
 // Windows Nagivaton Mapkeys
@@ -33,8 +32,6 @@ enum custom_keycodes {
 #define SWAP_L SGUI(KC_LEFT) // Swap application to left display
 #define SWAP_R SGUI(KC_RGHT) // Swap application to right display
 #define MINALL LGUI(KC_M) // Minimize all open applications
-#define DTOP_L LCTL(LGUI(KC_LEFT)) //Switch virtual desktops to left
-#define DTOP_R LCTL(LGUI(KC_RGHT)) //Switch virtual desktops to left
 
 // Internet Browser Nagivation
 #define BBACK LALT(KC_LEFT) // Back in Browser
