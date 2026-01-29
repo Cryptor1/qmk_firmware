@@ -19,7 +19,8 @@ enum custom_keycodes {
   NEW,
   UNDO,
   DRAW,
-  ALT_TAB
+  ALT_TAB,
+  IRIS
 };
 
 // Windows Nagivaton Mapkeys

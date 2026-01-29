@@ -33,6 +33,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             tap_code(KC_ENT);
         }
         return true;
+    case IRIS:
+        if (record->event.pressed) {
+            // when keycode IRIS is pressed
+            SEND_STRING("make keebio/iris/rev5:cryptor1:flash");
+            tap_code(KC_ENT);
+            bootloader_jump();
+        } else {
+            // when keycode RIP is released
+        }
+        break;
     }
     return true;
 };

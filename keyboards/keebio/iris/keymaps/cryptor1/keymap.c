@@ -15,8 +15,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    QWERTY_L_R5,                        QWERTY_R_R5,
    QWERTY_L_R4,                        QWERTY_R_R4,
    QWERTY_L_R3,                        QWERTY_R_R3,
-   QWERTY_L_R2,  QK_BOOT,    QK_BOOT,  QWERTY_R_R2,
-   ALT_TAB, LOWER, SPCNAV,   KC_BSPC, RAISE, _______),
+   QWERTY_L_R2,  IRIS,    _______,     QWERTY_R_R2,
+   ALT_TAB, LOWER, KC_SPC,   KC_BSPC, RAISE, _______),
 
 [_RAISE] = LAYOUT_wrapper(
    RAISE_L_R5,                           RAISE_R_R5,
